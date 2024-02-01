@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8620EE972B6A0F9000DEDCF6 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620EE962B6A0F9000DEDCF6 /* PokemonModel.swift */; };
-		8620EE992B6A0FC000DEDCF6 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620EE982B6A0FC000DEDCF6 /* HomeViewModel.swift */; };
 		8620EE9C2B6A0FF500DEDCF6 /* ManagerConnections.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8620EE9B2B6A0FF500DEDCF6 /* ManagerConnections.swift */; };
 		86B8297C2B69AB1300B9FA31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8297B2B69AB1300B9FA31 /* AppDelegate.swift */; };
 		86B8297E2B69AB1300B9FA31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8297D2B69AB1300B9FA31 /* SceneDelegate.swift */; };
@@ -40,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		8620EE962B6A0F9000DEDCF6 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
-		8620EE982B6A0FC000DEDCF6 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		8620EE9B2B6A0FF500DEDCF6 /* ManagerConnections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerConnections.swift; sourceTree = "<group>"; };
 		86B829782B69AB1300B9FA31 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B8297B2B69AB1300B9FA31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 			children = (
 				8620EE952B6A0EC800DEDCF6 /* Model */,
 				8620EE932B6A0EA800DEDCF6 /* View */,
-				8620EE942B6A0EB700DEDCF6 /* ViewModel */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -99,14 +96,6 @@
 				86B829812B69AB1300B9FA31 /* Main.storyboard */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		8620EE942B6A0EB700DEDCF6 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				8620EE982B6A0FC000DEDCF6 /* HomeViewModel.swift */,
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		8620EE952B6A0EC800DEDCF6 /* Model */ = {
@@ -311,7 +300,6 @@
 				86B8297C2B69AB1300B9FA31 /* AppDelegate.swift in Sources */,
 				86B8297E2B69AB1300B9FA31 /* SceneDelegate.swift in Sources */,
 				8620EE9C2B6A0FF500DEDCF6 /* ManagerConnections.swift in Sources */,
-				8620EE992B6A0FC000DEDCF6 /* HomeViewModel.swift in Sources */,
 				8620EE972B6A0F9000DEDCF6 /* PokemonModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
